@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C8B33EE68245F7994AC5C2 /* libPods-Reservation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DC2620F2639A2A6EE785D8 /* libPods-Reservation.a */; };
+		41EC7D6E128C81E4B170E633 /* libPods-ReservationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B148BD8479443409C11D05C6 /* libPods-ReservationUITests.a */; };
+		54E9AAE7CCD836A8B4637C22 /* libPods-ReservationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C3CD2CBCF09F3D08227B13 /* libPods-ReservationTests.a */; };
+		EF3D65481E5672940006297C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3D65471E5672940006297C /* UIKit.framework */; };
+		EF3D654D1E56747D0006297C /* Reservation-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EF3D654C1E56747D0006297C /* Reservation-prefix.pch */; };
+		EF62493F1E5978E400D111FE /* DataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EF62493D1E5978E400D111FE /* DataStore.h */; };
+		EF6249401E5978E400D111FE /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62493E1E5978E400D111FE /* DataStore.m */; };
+		EF6642181E57DD41001AD18D /* TAScheduleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642151E57DD41001AD18D /* TAScheduleViewController.h */; };
+		EF6642191E57DD41001AD18D /* TAScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6642161E57DD41001AD18D /* TAScheduleViewController.m */; };
+		EF66421A1E57DD41001AD18D /* TAScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6642171E57DD41001AD18D /* TAScheduleViewController.xib */; };
+		EF6642441E58D4E5001AD18D /* CVCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF66423E1E58D4E5001AD18D /* CVCell.h */; };
+		EF6642451E58D4E5001AD18D /* CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66423F1E58D4E5001AD18D /* CVCell.m */; };
+		EF6642461E58D4E5001AD18D /* CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6642401E58D4E5001AD18D /* CVCell.xib */; };
+		EF66424C1E58D4EE001AD18D /* TAPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF66424A1E58D4EE001AD18D /* TAPickerView.h */; };
+		EF66424D1E58D4EE001AD18D /* TAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66424B1E58D4EE001AD18D /* TAPickerView.m */; };
+		EF6642581E58D4FD001AD18D /* PagedImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642561E58D4FD001AD18D /* PagedImageScrollView.h */; };
+		EF6642591E58D4FD001AD18D /* PagedImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6642571E58D4FD001AD18D /* PagedImageScrollView.m */; };
+		EF66429F1E58D780001AD18D /* WeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642951E58D780001AD18D /* WeekView.h */; };
+		EF6642A01E58D780001AD18D /* WeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6642961E58D780001AD18D /* WeekView.m */; };
+		EF6642A11E58D780001AD18D /* WeekViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642971E58D780001AD18D /* WeekViewCell.h */; };
+		EF6642A21E58D780001AD18D /* WeekViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6642981E58D780001AD18D /* WeekViewCell.m */; };
+		EF6642A31E58D780001AD18D /* WeekViewDay.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642991E58D780001AD18D /* WeekViewDay.h */; };
+		EF6642A41E58D780001AD18D /* WeekViewDay.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66429A1E58D780001AD18D /* WeekViewDay.m */; };
+		EF6642A51E58D780001AD18D /* WeekViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EF66429B1E58D780001AD18D /* WeekViewFlowLayout.h */; };
+		EF6642A61E58D780001AD18D /* WeekViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66429C1E58D780001AD18D /* WeekViewFlowLayout.m */; };
+		EF6642B61E58D7FC001AD18D /* UIView+Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6642B41E58D7FC001AD18D /* UIView+Borders.h */; };
+		EF6642B71E58D7FC001AD18D /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6642B51E58D7FC001AD18D /* UIView+Borders.m */; };
+		EF8BA6AA1E5624B400176EF3 /* TAReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA6A81E5624B400176EF3 /* TAReservationViewController.m */; };
+		EF8BA6AB1E5624B400176EF3 /* TAReservationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8BA6A91E5624B400176EF3 /* TAReservationViewController.xib */; };
+		EF8BA6AF1E56500000176EF3 /* TASPAServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8BA6AD1E56500000176EF3 /* TASPAServiceViewController.m */; };
+		EF8BA6B01E56500000176EF3 /* TASPAServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8BA6AE1E56500000176EF3 /* TASPAServiceViewController.xib */; };
+		EFA57F7E1E5ADCDE00C0C166 /* NSString+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F7C1E5ADCDE00C0C166 /* NSString+Extended.h */; };
+		EFA57F7F1E5ADCDE00C0C166 /* NSString+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F7D1E5ADCDE00C0C166 /* NSString+Extended.m */; };
+		EFA57F8A1E5ADCED00C0C166 /* MHPrettyDate.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F801E5ADCED00C0C166 /* MHPrettyDate.h */; };
+		EFA57F8B1E5ADCED00C0C166 /* MHPrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F811E5ADCED00C0C166 /* MHPrettyDate.m */; };
+		EFA57F8C1E5ADCED00C0C166 /* MHPrettyDate.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFA57F821E5ADCED00C0C166 /* MHPrettyDate.strings */; };
+		EFA57F8D1E5ADCED00C0C166 /* NSDate+DateRange.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F831E5ADCED00C0C166 /* NSDate+DateRange.h */; };
+		EFA57F8E1E5ADCED00C0C166 /* NSDate+DateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F841E5ADCED00C0C166 /* NSDate+DateRange.m */; };
+		EFA57F8F1E5ADCED00C0C166 /* NSDate+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F851E5ADCED00C0C166 /* NSDate+Extended.h */; };
+		EFA57F901E5ADCED00C0C166 /* NSDate+RelativeString.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F861E5ADCED00C0C166 /* NSDate+RelativeString.h */; };
+		EFA57F911E5ADCED00C0C166 /* NSDate+RelativeString.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F871E5ADCED00C0C166 /* NSDate+RelativeString.m */; };
+		EFA57F921E5ADCED00C0C166 /* NSDate+TimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F881E5ADCED00C0C166 /* NSDate+TimeAgo.h */; };
+		EFA57F931E5ADCED00C0C166 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F891E5ADCED00C0C166 /* NSDate+TimeAgo.m */; };
+		EFA57F981E5ADCFC00C0C166 /* UIColor+Palette.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F941E5ADCFC00C0C166 /* UIColor+Palette.h */; };
+		EFA57F991E5ADCFC00C0C166 /* UIColor+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F951E5ADCFC00C0C166 /* UIColor+Palette.m */; };
+		EFA57F9A1E5ADCFC00C0C166 /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F961E5ADCFC00C0C166 /* UIColorAdditions.h */; };
+		EFA57F9B1E5ADCFC00C0C166 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F971E5ADCFC00C0C166 /* UIColorAdditions.m */; };
+		EFA57F9E1E5ADD0800C0C166 /* TAUtilityView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA57F9C1E5ADD0800C0C166 /* TAUtilityView.h */; };
+		EFA57F9F1E5ADD0800C0C166 /* TAUtilityView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA57F9D1E5ADD0800C0C166 /* TAUtilityView.m */; };
+		EFA938EA1E59352900668B4F /* TAReservationTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA938E71E59352900668B4F /* TAReservationTableViewCell.h */; };
+		EFA938EB1E59352900668B4F /* TAReservationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA938E81E59352900668B4F /* TAReservationTableViewCell.m */; };
+		EFA938EC1E59352900668B4F /* TAReservationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA938E91E59352900668B4F /* TAReservationTableViewCell.xib */; };
+		EFB782E61E5613A9006DF6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB782E51E5613A9006DF6BC /* main.m */; };
+		EFB782E91E5613A9006DF6BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB782E81E5613A9006DF6BC /* AppDelegate.m */; };
+		EFB782EF1E5613A9006DF6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB782ED1E5613A9006DF6BC /* Main.storyboard */; };
+		EFB782F21E5613A9006DF6BC /* Reservation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFB782F01E5613A9006DF6BC /* Reservation.xcdatamodeld */; };
+		EFB782F41E5613A9006DF6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB782F31E5613A9006DF6BC /* Assets.xcassets */; };
+		EFB782F71E5613A9006DF6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB782F51E5613A9006DF6BC /* LaunchScreen.storyboard */; };
+		EFB783021E5613AA006DF6BC /* ReservationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB783011E5613AA006DF6BC /* ReservationTests.m */; };
+		EFB7830D1E5613AA006DF6BC /* ReservationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7830C1E5613AA006DF6BC /* ReservationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB782FE1E5613AA006DF6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB782D91E5613A9006DF6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB782E01E5613A9006DF6BC;
+			remoteInfo = Reservation;
+		};
+		EFB783091E5613AA006DF6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB782D91E5613A9006DF6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB782E01E5613A9006DF6BC;
+			remoteInfo = Reservation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000F307E67D9EDE0273201F5 /* Pods-ReservationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReservationUITests/Pods-ReservationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30F1D1D320F50D4E7B5E979A /* Pods-Reservation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.release.xcconfig"; sourceTree = "<group>"; };
+		46FCEDB03AC77F598475E67B /* Pods-ReservationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReservationUITests/Pods-ReservationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60C3CD2CBCF09F3D08227B13 /* libPods-ReservationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReservationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2823EB574FE70E884EE465 /* Pods-Reservation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reservation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reservation/Pods-Reservation.debug.xcconfig"; sourceTree = "<group>"; };
+		B148BD8479443409C11D05C6 /* libPods-ReservationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReservationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DC2620F2639A2A6EE785D8 /* libPods-Reservation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reservation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6607E0DF92D12B8280385F /* Pods-ReservationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReservationTests/Pods-ReservationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3D65471E5672940006297C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF3D654C1E56747D0006297C /* Reservation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reservation-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		EF62493D1E5978E400D111FE /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = SingletonClass/DataStore.h; sourceTree = "<group>"; };
+		EF62493E1E5978E400D111FE /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = SingletonClass/DataStore.m; sourceTree = "<group>"; };
+		EF6642151E57DD41001AD18D /* TAScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAScheduleViewController.h; sourceTree = "<group>"; };
+		EF6642161E57DD41001AD18D /* TAScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAScheduleViewController.m; sourceTree = "<group>"; };
+		EF6642171E57DD41001AD18D /* TAScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAScheduleViewController.xib; sourceTree = "<group>"; };
+		EF66423E1E58D4E5001AD18D /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCell.h; path = CollectionViewCell/CVCell.h; sourceTree = "<group>"; };
+		EF66423F1E58D4E5001AD18D /* CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCell.m; path = CollectionViewCell/CVCell.m; sourceTree = "<group>"; };
+		EF6642401E58D4E5001AD18D /* CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CVCell.xib; path = CollectionViewCell/CVCell.xib; sourceTree = "<group>"; };
+		EF66424A1E58D4EE001AD18D /* TAPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAPickerView.h; path = PickerView/TAPickerView.h; sourceTree = "<group>"; };
+		EF66424B1E58D4EE001AD18D /* TAPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAPickerView.m; path = PickerView/TAPickerView.m; sourceTree = "<group>"; };
+		EF6642561E58D4FD001AD18D /* PagedImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagedImageScrollView.h; path = PageControl/PagedImageScrollView.h; sourceTree = "<group>"; };
+		EF6642571E58D4FD001AD18D /* PagedImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagedImageScrollView.m; path = PageControl/PagedImageScrollView.m; sourceTree = "<group>"; };
+		EF6642951E58D780001AD18D /* WeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekView.h; path = CollectionViewCell/WeekView.h; sourceTree = "<group>"; };
+		EF6642961E58D780001AD18D /* WeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekView.m; path = CollectionViewCell/WeekView.m; sourceTree = "<group>"; };
+		EF6642971E58D780001AD18D /* WeekViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekViewCell.h; path = CollectionViewCell/WeekViewCell.h; sourceTree = "<group>"; };
+		EF6642981E58D780001AD18D /* WeekViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekViewCell.m; path = CollectionViewCell/WeekViewCell.m; sourceTree = "<group>"; };
+		EF6642991E58D780001AD18D /* WeekViewDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekViewDay.h; path = CollectionViewCell/WeekViewDay.h; sourceTree = "<group>"; };
+		EF66429A1E58D780001AD18D /* WeekViewDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekViewDay.m; path = CollectionViewCell/WeekViewDay.m; sourceTree = "<group>"; };
+		EF66429B1E58D780001AD18D /* WeekViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekViewFlowLayout.h; path = CollectionViewCell/WeekViewFlowLayout.h; sourceTree = "<group>"; };
+		EF66429C1E58D780001AD18D /* WeekViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekViewFlowLayout.m; path = CollectionViewCell/WeekViewFlowLayout.m; sourceTree = "<group>"; };
+		EF6642B41E58D7FC001AD18D /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Borders.h"; path = "CollectionViewCell/UIView+Borders.h"; sourceTree = "<group>"; };
+		EF6642B51E58D7FC001AD18D /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Borders.m"; path = "CollectionViewCell/UIView+Borders.m"; sourceTree = "<group>"; };
+		EF8BA6A71E5624B400176EF3 /* TAReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAReservationViewController.h; sourceTree = "<group>"; };
+		EF8BA6A81E5624B400176EF3 /* TAReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAReservationViewController.m; sourceTree = "<group>"; };
+		EF8BA6A91E5624B400176EF3 /* TAReservationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAReservationViewController.xib; sourceTree = "<group>"; };
+		EF8BA6AC1E56500000176EF3 /* TASPAServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASPAServiceViewController.h; sourceTree = "<group>"; };
+		EF8BA6AD1E56500000176EF3 /* TASPAServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASPAServiceViewController.m; sourceTree = "<group>"; };
+		EF8BA6AE1E56500000176EF3 /* TASPAServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TASPAServiceViewController.xib; sourceTree = "<group>"; };
+		EFA57F7C1E5ADCDE00C0C166 /* NSString+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extended.h"; path = "Commons/NSString/NSString+Extended.h"; sourceTree = "<group>"; };
+		EFA57F7D1E5ADCDE00C0C166 /* NSString+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extended.m"; path = "Commons/NSString/NSString+Extended.m"; sourceTree = "<group>"; };
+		EFA57F801E5ADCED00C0C166 /* MHPrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHPrettyDate.h; path = Commons/NSDate/MHPrettyDate.h; sourceTree = "<group>"; };
+		EFA57F811E5ADCED00C0C166 /* MHPrettyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHPrettyDate.m; path = Commons/NSDate/MHPrettyDate.m; sourceTree = "<group>"; };
+		EFA57F821E5ADCED00C0C166 /* MHPrettyDate.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = MHPrettyDate.strings; path = Commons/NSDate/MHPrettyDate.strings; sourceTree = "<group>"; };
+		EFA57F831E5ADCED00C0C166 /* NSDate+DateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateRange.h"; path = "Commons/NSDate/NSDate+DateRange.h"; sourceTree = "<group>"; };
+		EFA57F841E5ADCED00C0C166 /* NSDate+DateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateRange.m"; path = "Commons/NSDate/NSDate+DateRange.m"; sourceTree = "<group>"; };
+		EFA57F851E5ADCED00C0C166 /* NSDate+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extended.h"; path = "Commons/NSDate/NSDate+Extended.h"; sourceTree = "<group>"; };
+		EFA57F861E5ADCED00C0C166 /* NSDate+RelativeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+RelativeString.h"; path = "Commons/NSDate/NSDate+RelativeString.h"; sourceTree = "<group>"; };
+		EFA57F871E5ADCED00C0C166 /* NSDate+RelativeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RelativeString.m"; path = "Commons/NSDate/NSDate+RelativeString.m"; sourceTree = "<group>"; };
+		EFA57F881E5ADCED00C0C166 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeAgo.h"; path = "Commons/NSDate/NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		EFA57F891E5ADCED00C0C166 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TimeAgo.m"; path = "Commons/NSDate/NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		EFA57F941E5ADCFC00C0C166 /* UIColor+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Palette.h"; path = "Commons/Categories/UIColor+Palette.h"; sourceTree = "<group>"; };
+		EFA57F951E5ADCFC00C0C166 /* UIColor+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Palette.m"; path = "Commons/Categories/UIColor+Palette.m"; sourceTree = "<group>"; };
+		EFA57F961E5ADCFC00C0C166 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIColorAdditions.h; path = Commons/Categories/UIColorAdditions.h; sourceTree = "<group>"; };
+		EFA57F971E5ADCFC00C0C166 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIColorAdditions.m; path = Commons/Categories/UIColorAdditions.m; sourceTree = "<group>"; };
+		EFA57F9C1E5ADD0800C0C166 /* TAUtilityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAUtilityView.h; path = Commons/TAUtilityView.h; sourceTree = "<group>"; };
+		EFA57F9D1E5ADD0800C0C166 /* TAUtilityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAUtilityView.m; path = Commons/TAUtilityView.m; sourceTree = "<group>"; };
+		EFA938E71E59352900668B4F /* TAReservationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAReservationTableViewCell.h; sourceTree = "<group>"; };
+		EFA938E81E59352900668B4F /* TAReservationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAReservationTableViewCell.m; sourceTree = "<group>"; };
+		EFA938E91E59352900668B4F /* TAReservationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAReservationTableViewCell.xib; sourceTree = "<group>"; };
+		EFB782E11E5613A9006DF6BC /* Reservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB782E51E5613A9006DF6BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB782E71E5613A9006DF6BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFB782E81E5613A9006DF6BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFB782EE1E5613A9006DF6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB782F11E5613A9006DF6BC /* Reservation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reservation.xcdatamodel; sourceTree = "<group>"; };
+		EFB782F31E5613A9006DF6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB782F61E5613A9006DF6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB782F81E5613A9006DF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB782FD1E5613AA006DF6BC /* ReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB783011E5613AA006DF6BC /* ReservationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservationTests.m; sourceTree = "<group>"; };
+		EFB783031E5613AA006DF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB783081E5613AA006DF6BC /* ReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB7830C1E5613AA006DF6BC /* ReservationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservationUITests.m; sourceTree = "<group>"; };
+		EFB7830E1E5613AA006DF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0897386AB843A02952E5F40 /* Pods-ReservationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReservationTests/Pods-ReservationTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB782DE1E5613A9006DF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3D65481E5672940006297C /* UIKit.framework in Frameworks */,
+				36C8B33EE68245F7994AC5C2 /* libPods-Reservation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB782FA1E5613AA006DF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E9AAE7CCD836A8B4637C22 /* libPods-ReservationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB783051E5613AA006DF6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC7D6E128C81E4B170E633 /* libPods-ReservationUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8C8B41B194686C56F115575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E2823EB574FE70E884EE465 /* Pods-Reservation.debug.xcconfig */,
+				30F1D1D320F50D4E7B5E979A /* Pods-Reservation.release.xcconfig */,
+				CF6607E0DF92D12B8280385F /* Pods-ReservationTests.debug.xcconfig */,
+				F0897386AB843A02952E5F40 /* Pods-ReservationTests.release.xcconfig */,
+				46FCEDB03AC77F598475E67B /* Pods-ReservationUITests.debug.xcconfig */,
+				000F307E67D9EDE0273201F5 /* Pods-ReservationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF3D65461E5671DC0006297C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EFA57F941E5ADCFC00C0C166 /* UIColor+Palette.h */,
+				EFA57F951E5ADCFC00C0C166 /* UIColor+Palette.m */,
+				EFA57F961E5ADCFC00C0C166 /* UIColorAdditions.h */,
+				EFA57F971E5ADCFC00C0C166 /* UIColorAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EF62492E1E5962BB00D111FE /* SingletonDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				EF62493D1E5978E400D111FE /* DataStore.h */,
+				EF62493E1E5978E400D111FE /* DataStore.m */,
+			);
+			name = SingletonDataStore;
+			sourceTree = "<group>";
+		};
+		EF6249411E5979C200D111FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF8BA6A71E5624B400176EF3 /* TAReservationViewController.h */,
+				EF8BA6A81E5624B400176EF3 /* TAReservationViewController.m */,
+				EF8BA6A91E5624B400176EF3 /* TAReservationViewController.xib */,
+				EF8BA6AC1E56500000176EF3 /* TASPAServiceViewController.h */,
+				EF8BA6AD1E56500000176EF3 /* TASPAServiceViewController.m */,
+				EF8BA6AE1E56500000176EF3 /* TASPAServiceViewController.xib */,
+				EF6642151E57DD41001AD18D /* TAScheduleViewController.h */,
+				EF6642161E57DD41001AD18D /* TAScheduleViewController.m */,
+				EF6642171E57DD41001AD18D /* TAScheduleViewController.xib */,
+			);
+			name = ViewControllers;
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		EF66422E1E581C6E001AD18D /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EF66424A1E58D4EE001AD18D /* TAPickerView.h */,
+				EF66424B1E58D4EE001AD18D /* TAPickerView.m */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
+		EF6642371E589D90001AD18D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF6642B41E58D7FC001AD18D /* UIView+Borders.h */,
+				EF6642B51E58D7FC001AD18D /* UIView+Borders.m */,
+				EF6642951E58D780001AD18D /* WeekView.h */,
+				EF6642961E58D780001AD18D /* WeekView.m */,
+				EF6642971E58D780001AD18D /* WeekViewCell.h */,
+				EF6642981E58D780001AD18D /* WeekViewCell.m */,
+				EF6642991E58D780001AD18D /* WeekViewDay.h */,
+				EF66429A1E58D780001AD18D /* WeekViewDay.m */,
+				EF66429B1E58D780001AD18D /* WeekViewFlowLayout.h */,
+				EF66429C1E58D780001AD18D /* WeekViewFlowLayout.m */,
+				EF66423E1E58D4E5001AD18D /* CVCell.h */,
+				EF66423F1E58D4E5001AD18D /* CVCell.m */,
+				EF6642401E58D4E5001AD18D /* CVCell.xib */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		EF66427E1E58D73E001AD18D /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				EFA57F801E5ADCED00C0C166 /* MHPrettyDate.h */,
+				EFA57F811E5ADCED00C0C166 /* MHPrettyDate.m */,
+				EFA57F821E5ADCED00C0C166 /* MHPrettyDate.strings */,
+				EFA57F831E5ADCED00C0C166 /* NSDate+DateRange.h */,
+				EFA57F841E5ADCED00C0C166 /* NSDate+DateRange.m */,
+				EFA57F851E5ADCED00C0C166 /* NSDate+Extended.h */,
+				EFA57F861E5ADCED00C0C166 /* NSDate+RelativeString.h */,
+				EFA57F871E5ADCED00C0C166 /* NSDate+RelativeString.m */,
+				EFA57F881E5ADCED00C0C166 /* NSDate+TimeAgo.h */,
+				EFA57F891E5ADCED00C0C166 /* NSDate+TimeAgo.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		EF6642AF1E58D7CC001AD18D /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				EFA57F7C1E5ADCDE00C0C166 /* NSString+Extended.h */,
+				EFA57F7D1E5ADCDE00C0C166 /* NSString+Extended.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		EF8BA6BF1E56557F00176EF3 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EFA57F7B1E5A634300C0C166 /* Commons */,
+				EFA938E61E59352900668B4F /* TableViewCell */,
+				EF6642371E589D90001AD18D /* CollectionViewCell */,
+				EF66422E1E581C6E001AD18D /* PickerView */,
+				EF8BA6C01E5656DE00176EF3 /* PageControl */,
+			);
+			name = UIComponents;
+			sourceTree = "<group>";
+		};
+		EF8BA6C01E5656DE00176EF3 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				EF6642561E58D4FD001AD18D /* PagedImageScrollView.h */,
+				EF6642571E58D4FD001AD18D /* PagedImageScrollView.m */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
+		EFA57F7B1E5A634300C0C166 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				EFA57F9C1E5ADD0800C0C166 /* TAUtilityView.h */,
+				EFA57F9D1E5ADD0800C0C166 /* TAUtilityView.m */,
+				EF6642AF1E58D7CC001AD18D /* NSString */,
+				EF66427E1E58D73E001AD18D /* NSDate */,
+				EF3D65461E5671DC0006297C /* Categories */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		EFA938E61E59352900668B4F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFA938E71E59352900668B4F /* TAReservationTableViewCell.h */,
+				EFA938E81E59352900668B4F /* TAReservationTableViewCell.m */,
+				EFA938E91E59352900668B4F /* TAReservationTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		EFA938F11E5948F300668B4F /* CoreData Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CoreData Model";
+			sourceTree = "<group>";
+		};
+		EFB782D81E5613A9006DF6BC = {
+			isa = PBXGroup;
+			children = (
+				EF62492E1E5962BB00D111FE /* SingletonDataStore */,
+				EFA938F11E5948F300668B4F /* CoreData Model */,
+				EF8BA6BF1E56557F00176EF3 /* UIComponents */,
+				EF6249411E5979C200D111FE /* ViewControllers */,
+				EFB782E31E5613A9006DF6BC /* Reservation */,
+				EFB783001E5613AA006DF6BC /* ReservationTests */,
+				EFB7830B1E5613AA006DF6BC /* ReservationUITests */,
+				EFB782E21E5613A9006DF6BC /* Products */,
+				C8C8B41B194686C56F115575 /* Pods */,
+				FE86AA2FA1494A706EB87304 /* Frameworks */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			wrapsLines = 1;
+		};
+		EFB782E21E5613A9006DF6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB782E11E5613A9006DF6BC /* Reservation.app */,
+				EFB782FD1E5613AA006DF6BC /* ReservationTests.xctest */,
+				EFB783081E5613AA006DF6BC /* ReservationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB782E31E5613A9006DF6BC /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				EFB782E71E5613A9006DF6BC /* AppDelegate.h */,
+				EFB782E81E5613A9006DF6BC /* AppDelegate.m */,
+				EFB782ED1E5613A9006DF6BC /* Main.storyboard */,
+				EFB782F31E5613A9006DF6BC /* Assets.xcassets */,
+				EFB782F51E5613A9006DF6BC /* LaunchScreen.storyboard */,
+				EFB782F81E5613A9006DF6BC /* Info.plist */,
+				EFB782F01E5613A9006DF6BC /* Reservation.xcdatamodeld */,
+				EFB782E41E5613A9006DF6BC /* Supporting Files */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		EFB782E41E5613A9006DF6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3D654C1E56747D0006297C /* Reservation-prefix.pch */,
+				EFB782E51E5613A9006DF6BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB783001E5613AA006DF6BC /* ReservationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB783011E5613AA006DF6BC /* ReservationTests.m */,
+				EFB783031E5613AA006DF6BC /* Info.plist */,
+			);
+			path = ReservationTests;
+			sourceTree = "<group>";
+		};
+		EFB7830B1E5613AA006DF6BC /* ReservationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB7830C1E5613AA006DF6BC /* ReservationUITests.m */,
+				EFB7830E1E5613AA006DF6BC /* Info.plist */,
+			);
+			path = ReservationUITests;
+			sourceTree = "<group>";
+		};
+		FE86AA2FA1494A706EB87304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3D65471E5672940006297C /* UIKit.framework */,
+				C4DC2620F2639A2A6EE785D8 /* libPods-Reservation.a */,
+				60C3CD2CBCF09F3D08227B13 /* libPods-ReservationTests.a */,
+				B148BD8479443409C11D05C6 /* libPods-ReservationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF3D65491E56735B0006297C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA57F9A1E5ADCFC00C0C166 /* UIColorAdditions.h in Headers */,
+				EFA57F7E1E5ADCDE00C0C166 /* NSString+Extended.h in Headers */,
+				EF62493F1E5978E400D111FE /* DataStore.h in Headers */,
+				EF6642A11E58D780001AD18D /* WeekViewCell.h in Headers */,
+				EF6642181E57DD41001AD18D /* TAScheduleViewController.h in Headers */,
+				EF6642581E58D4FD001AD18D /* PagedImageScrollView.h in Headers */,
+				EF6642A51E58D780001AD18D /* WeekViewFlowLayout.h in Headers */,
+				EF6642B61E58D7FC001AD18D /* UIView+Borders.h in Headers */,
+				EFA938EA1E59352900668B4F /* TAReservationTableViewCell.h in Headers */,
+				EF66429F1E58D780001AD18D /* WeekView.h in Headers */,
+				EFA57F8A1E5ADCED00C0C166 /* MHPrettyDate.h in Headers */,
+				EF66424C1E58D4EE001AD18D /* TAPickerView.h in Headers */,
+				EF6642A31E58D780001AD18D /* WeekViewDay.h in Headers */,
+				EFA57F921E5ADCED00C0C166 /* NSDate+TimeAgo.h in Headers */,
+				EF6642441E58D4E5001AD18D /* CVCell.h in Headers */,
+				EFA57F981E5ADCFC00C0C166 /* UIColor+Palette.h in Headers */,
+				EFA57F8D1E5ADCED00C0C166 /* NSDate+DateRange.h in Headers */,
+				EF3D654D1E56747D0006297C /* Reservation-prefix.pch in Headers */,
+				EFA57F901E5ADCED00C0C166 /* NSDate+RelativeString.h in Headers */,
+				EFA57F8F1E5ADCED00C0C166 /* NSDate+Extended.h in Headers */,
+				EFA57F9E1E5ADD0800C0C166 /* TAUtilityView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFB782E01E5613A9006DF6BC /* Reservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB783111E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "Reservation" */;
+			buildPhases = (
+				714ED11055DAE30CA018A847 /* [CP] Check Pods Manifest.lock */,
+				EFB782DD1E5613A9006DF6BC /* Sources */,
+				EFB782DE1E5613A9006DF6BC /* Frameworks */,
+				EFB782DF1E5613A9006DF6BC /* Resources */,
+				0A7E4CF67712322814F934F6 /* [CP] Embed Pods Frameworks */,
+				C9A55E41005860D0C9A08A7D /* [CP] Copy Pods Resources */,
+				EF3D65491E56735B0006297C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reservation;
+			productName = Reservation;
+			productReference = EFB782E11E5613A9006DF6BC /* Reservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB782FC1E5613AA006DF6BC /* ReservationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB783141E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "ReservationTests" */;
+			buildPhases = (
+				4D162126B4097E0D76E8C62C /* [CP] Check Pods Manifest.lock */,
+				EFB782F91E5613AA006DF6BC /* Sources */,
+				EFB782FA1E5613AA006DF6BC /* Frameworks */,
+				EFB782FB1E5613AA006DF6BC /* Resources */,
+				5DF30D54CC6222BCAE8D7F42 /* [CP] Embed Pods Frameworks */,
+				2B3767901CF1FF70E8BBA6CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB782FF1E5613AA006DF6BC /* PBXTargetDependency */,
+			);
+			name = ReservationTests;
+			productName = ReservationTests;
+			productReference = EFB782FD1E5613AA006DF6BC /* ReservationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB783071E5613AA006DF6BC /* ReservationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB783171E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "ReservationUITests" */;
+			buildPhases = (
+				E40A79BE4F74B6028CC939E0 /* [CP] Check Pods Manifest.lock */,
+				EFB783041E5613AA006DF6BC /* Sources */,
+				EFB783051E5613AA006DF6BC /* Frameworks */,
+				EFB783061E5613AA006DF6BC /* Resources */,
+				53F260B8C7069E7324978581 /* [CP] Embed Pods Frameworks */,
+				09F89B1738078F1D59660A52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB7830A1E5613AA006DF6BC /* PBXTargetDependency */,
+			);
+			name = ReservationUITests;
+			productName = ReservationUITests;
+			productReference = EFB783081E5613AA006DF6BC /* ReservationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB782D91E5613A9006DF6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tarun Gupta";
+				TargetAttributes = {
+					EFB782E01E5613A9006DF6BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFB782FC1E5613AA006DF6BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB782E01E5613A9006DF6BC;
+					};
+					EFB783071E5613AA006DF6BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB782E01E5613A9006DF6BC;
+					};
+				};
+			};
+			buildConfigurationList = EFB782DC1E5613A9006DF6BC /* Build configuration list for PBXProject "Reservation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB782D81E5613A9006DF6BC;
+			productRefGroup = EFB782E21E5613A9006DF6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB782E01E5613A9006DF6BC /* Reservation */,
+				EFB782FC1E5613AA006DF6BC /* ReservationTests */,
+				EFB783071E5613AA006DF6BC /* ReservationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB782DF1E5613A9006DF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB782F71E5613A9006DF6BC /* LaunchScreen.storyboard in Resources */,
+				EF6642461E58D4E5001AD18D /* CVCell.xib in Resources */,
+				EFA57F8C1E5ADCED00C0C166 /* MHPrettyDate.strings in Resources */,
+				EFB782F41E5613A9006DF6BC /* Assets.xcassets in Resources */,
+				EFB782EF1E5613A9006DF6BC /* Main.storyboard in Resources */,
+				EFA938EC1E59352900668B4F /* TAReservationTableViewCell.xib in Resources */,
+				EF8BA6B01E56500000176EF3 /* TASPAServiceViewController.xib in Resources */,
+				EF66421A1E57DD41001AD18D /* TAScheduleViewController.xib in Resources */,
+				EF8BA6AB1E5624B400176EF3 /* TAReservationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB782FB1E5613AA006DF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB783061E5613AA006DF6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F89B1738078F1D59660A52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReservationUITests/Pods-ReservationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A7E4CF67712322814F934F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3767901CF1FF70E8BBA6CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReservationTests/Pods-ReservationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D162126B4097E0D76E8C62C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53F260B8C7069E7324978581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReservationUITests/Pods-ReservationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF30D54CC6222BCAE8D7F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReservationTests/Pods-ReservationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714ED11055DAE30CA018A847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A55E41005860D0C9A08A7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reservation/Pods-Reservation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40A79BE4F74B6028CC939E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB782DD1E5613A9006DF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB782E91E5613A9006DF6BC /* AppDelegate.m in Sources */,
+				EFA57F9B1E5ADCFC00C0C166 /* UIColorAdditions.m in Sources */,
+				EFA938EB1E59352900668B4F /* TAReservationTableViewCell.m in Sources */,
+				EF6642A21E58D780001AD18D /* WeekViewCell.m in Sources */,
+				EF8BA6AF1E56500000176EF3 /* TASPAServiceViewController.m in Sources */,
+				EFB782F21E5613A9006DF6BC /* Reservation.xcdatamodeld in Sources */,
+				EF6642B71E58D7FC001AD18D /* UIView+Borders.m in Sources */,
+				EF6642A01E58D780001AD18D /* WeekView.m in Sources */,
+				EF6642591E58D4FD001AD18D /* PagedImageScrollView.m in Sources */,
+				EF6642A61E58D780001AD18D /* WeekViewFlowLayout.m in Sources */,
+				EF6642191E57DD41001AD18D /* TAScheduleViewController.m in Sources */,
+				EF6249401E5978E400D111FE /* DataStore.m in Sources */,
+				EFA57F931E5ADCED00C0C166 /* NSDate+TimeAgo.m in Sources */,
+				EF6642A41E58D780001AD18D /* WeekViewDay.m in Sources */,
+				EFA57F9F1E5ADD0800C0C166 /* TAUtilityView.m in Sources */,
+				EF66424D1E58D4EE001AD18D /* TAPickerView.m in Sources */,
+				EF6642451E58D4E5001AD18D /* CVCell.m in Sources */,
+				EFA57F7F1E5ADCDE00C0C166 /* NSString+Extended.m in Sources */,
+				EFA57F911E5ADCED00C0C166 /* NSDate+RelativeString.m in Sources */,
+				EFA57F8E1E5ADCED00C0C166 /* NSDate+DateRange.m in Sources */,
+				EFB782E61E5613A9006DF6BC /* main.m in Sources */,
+				EFA57F991E5ADCFC00C0C166 /* UIColor+Palette.m in Sources */,
+				EF8BA6AA1E5624B400176EF3 /* TAReservationViewController.m in Sources */,
+				EFA57F8B1E5ADCED00C0C166 /* MHPrettyDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB782F91E5613AA006DF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB783021E5613AA006DF6BC /* ReservationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB783041E5613AA006DF6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB7830D1E5613AA006DF6BC /* ReservationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB782FF1E5613AA006DF6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB782E01E5613A9006DF6BC /* Reservation */;
+			targetProxy = EFB782FE1E5613AA006DF6BC /* PBXContainerItemProxy */;
+		};
+		EFB7830A1E5613AA006DF6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB782E01E5613A9006DF6BC /* Reservation */;
+			targetProxy = EFB783091E5613AA006DF6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB782ED1E5613A9006DF6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB782EE1E5613A9006DF6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB782F51E5613A9006DF6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB782F61E5613A9006DF6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB7830F1E5613AA006DF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFB783101E5613AA006DF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB783121E5613AA006DF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2823EB574FE70E884EE465 /* Pods-Reservation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "/Users/tarungupta/Documents/WellsFargoInterview/Reservation/Reservation-prefix.pch";
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB783131E5613AA006DF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F1D1D320F50D4E7B5E979A /* Pods-Reservation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "/Users/tarungupta/Documents/WellsFargoInterview/Reservation/Reservation-prefix.pch";
+				INFOPLIST_FILE = Reservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFB783151E5613AA006DF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6607E0DF92D12B8280385F /* Pods-ReservationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReservationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TringApps.ReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reservation.app/Reservation";
+			};
+			name = Debug;
+		};
+		EFB783161E5613AA006DF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0897386AB843A02952E5F40 /* Pods-ReservationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReservationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TringApps.ReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reservation.app/Reservation";
+			};
+			name = Release;
+		};
+		EFB783181E5613AA006DF6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FCEDB03AC77F598475E67B /* Pods-ReservationUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ReservationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TringApps.ReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reservation;
+			};
+			name = Debug;
+		};
+		EFB783191E5613AA006DF6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000F307E67D9EDE0273201F5 /* Pods-ReservationUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ReservationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TringApps.ReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reservation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB782DC1E5613A9006DF6BC /* Build configuration list for PBXProject "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB7830F1E5613AA006DF6BC /* Debug */,
+				EFB783101E5613AA006DF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB783111E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "Reservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB783121E5613AA006DF6BC /* Debug */,
+				EFB783131E5613AA006DF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB783141E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "ReservationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB783151E5613AA006DF6BC /* Debug */,
+				EFB783161E5613AA006DF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB783171E5613AA006DF6BC /* Build configuration list for PBXNativeTarget "ReservationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB783181E5613AA006DF6BC /* Debug */,
+				EFB783191E5613AA006DF6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFB782F01E5613A9006DF6BC /* Reservation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFB782F11E5613A9006DF6BC /* Reservation.xcdatamodel */,
+			);
+			currentVersion = EFB782F11E5613A9006DF6BC /* Reservation.xcdatamodel */;
+			path = Reservation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFB782D91E5613A9006DF6BC /* Project object */;
+}

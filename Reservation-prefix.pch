@@ -1,0 +1,27 @@
+//
+//  Reservation-prefix.pch
+//  Reservation
+//
+//  Created by Tarun Gupta on 2/16/17.
+//  Copyright © 2017 Tarun Gupta. All rights reserved.
+//
+
+#ifndef Reservation_prefix_pch
+#define Reservation_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// main frameworks
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Commons
+#import "TAUtilityView.h"
+#import "UIColor+Palette.h"
+#import "NSDate+Extended.h"
+#import "NSString+Extended.h"
+
+#import <CoreData/CoreData.h>
+#import "DataStore.h"
+
+#endif /* Reservation_prefix_pch */

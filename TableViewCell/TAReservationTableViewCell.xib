@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReservationCell" rowHeight="199" id="KGk-i7-Jjw" customClass="TAReservationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ba-Jb-E3C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday, March 26, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWU-nj-e2l">
+                                <rect key="frame" x="8" y="10" width="159" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgH-Mp-KPF">
+                                <rect key="frame" x="250" y="10" width="62" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="rc5-kq-cEc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.043137254901960784" green="0.32941176470588235" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CgH-Mp-KPF" firstAttribute="trailing" secondItem="4Ba-Jb-E3C" secondAttribute="trailingMargin" id="4e3-38-4W8"/>
+                            <constraint firstItem="AWU-nj-e2l" firstAttribute="baseline" secondItem="CgH-Mp-KPF" secondAttribute="baseline" id="5WI-ZT-gly"/>
+                            <constraint firstItem="AWU-nj-e2l" firstAttribute="firstBaseline" secondItem="CgH-Mp-KPF" secondAttribute="firstBaseline" id="C2a-Pi-T1G"/>
+                            <constraint firstAttribute="height" constant="40" id="NxI-5Q-R7R"/>
+                            <constraint firstItem="AWU-nj-e2l" firstAttribute="top" secondItem="4Ba-Jb-E3C" secondAttribute="top" constant="10" id="TtH-t6-Uj9"/>
+                            <constraint firstItem="CgH-Mp-KPF" firstAttribute="leading" secondItem="AWU-nj-e2l" secondAttribute="trailing" constant="83" id="pnX-Xk-6cn"/>
+                            <constraint firstItem="AWU-nj-e2l" firstAttribute="centerY" secondItem="4Ba-Jb-E3C" secondAttribute="centerY" id="rI4-pX-xiV"/>
+                            <constraint firstItem="AWU-nj-e2l" firstAttribute="leading" secondItem="4Ba-Jb-E3C" secondAttribute="leadingMargin" id="x0Q-xi-ox3"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gel Manicure" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUT-6r-gCT">
+                        <rect key="frame" x="8" y="54" width="213" height="21.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="213" id="6Rj-xg-tAL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PARTY SIZE - 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qw1-8U-9fB">
+                        <rect key="frame" x="8" y="82.5" width="96" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="IwQ-iR-F5f"/>
+                            <constraint firstAttribute="width" constant="96" id="hBO-h3-U2A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30M" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCK-sP-bx7">
+                        <rect key="frame" x="287" y="82.5" width="25" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="VTo-KW-erO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Rm-5G-Py4">
+                        <rect key="frame" x="8" y="106.5" width="304" height="1"/>
+                        <color key="backgroundColor" white="0.95775986380047273" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get the upper hand with our chip-resistant, mirror-finish gel polish that requires no drying time and last up to two weeks." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqb-La-25i">
+                        <rect key="frame" x="8" y="114.5" width="304" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="EdS-ub-g9v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTZ-oI-Anc">
+                        <rect key="frame" x="13" y="155.5" width="134" height="30"/>
+                        <color key="backgroundColor" red="0.043137254901960784" green="0.32941176470588235" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="134" id="5Ph-Ly-47w"/>
+                            <constraint firstAttribute="height" constant="30" id="CLo-Gw-6pO"/>
+                        </constraints>
+                        <state key="normal" title="RESCHEDULE">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="rescheduleButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8Fb-Gm-1sU"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0c-a0-K2J">
+                        <rect key="frame" x="173" y="155.5" width="134" height="30"/>
+                        <color key="backgroundColor" red="0.25098039215686274" green="0.29411764705882354" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="134" id="9tL-RE-nwN"/>
+                        </constraints>
+                        <state key="normal" title="CANCEL">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="6"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="cancelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yim-zd-kjU"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qw1-8U-9fB" firstAttribute="leading" secondItem="4Rm-5G-Py4" secondAttribute="leading" id="0Nd-f4-XJ8"/>
+                    <constraint firstItem="Zqb-La-25i" firstAttribute="top" secondItem="4Rm-5G-Py4" secondAttribute="bottom" constant="7" id="5d8-ay-nFJ"/>
+                    <constraint firstItem="zTZ-oI-Anc" firstAttribute="top" secondItem="Zqb-La-25i" secondAttribute="bottom" constant="9" id="Cyu-n3-7CP"/>
+                    <constraint firstItem="4Ba-Jb-E3C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Gnm-wW-Fmo"/>
+                    <constraint firstItem="4Rm-5G-Py4" firstAttribute="trailing" secondItem="Zqb-La-25i" secondAttribute="trailing" id="KQF-pI-Rgm"/>
+                    <constraint firstItem="4Rm-5G-Py4" firstAttribute="top" secondItem="qw1-8U-9fB" secondAttribute="bottom" constant="3" id="PNW-Fy-3yi"/>
+                    <constraint firstItem="4Ba-Jb-E3C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Pno-cM-sxK"/>
+                    <constraint firstItem="hCK-sP-bx7" firstAttribute="trailing" secondItem="4Rm-5G-Py4" secondAttribute="trailing" id="Qug-Lx-fhd"/>
+                    <constraint firstItem="qw1-8U-9fB" firstAttribute="baseline" secondItem="hCK-sP-bx7" secondAttribute="baseline" id="Zvp-4X-sL5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zTZ-oI-Anc" secondAttribute="bottom" constant="6" id="c6Y-x3-AUJ"/>
+                    <constraint firstItem="AUT-6r-gCT" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4Ba-Jb-E3C" secondAttribute="bottom" priority="750" constant="8" symbolic="YES" id="fn8-bE-ZN2"/>
+                    <constraint firstItem="Zqb-La-25i" firstAttribute="top" secondItem="qw1-8U-9fB" secondAttribute="bottom" constant="11" id="gqg-jo-dEm"/>
+                    <constraint firstItem="zTZ-oI-Anc" firstAttribute="baseline" secondItem="C0c-a0-K2J" secondAttribute="baseline" id="itm-0F-xsp"/>
+                    <constraint firstItem="C0c-a0-K2J" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="80" id="jdO-rx-NxX"/>
+                    <constraint firstItem="hCK-sP-bx7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4Ba-Jb-E3C" secondAttribute="bottom" constant="32" id="kcS-z1-SXn"/>
+                    <constraint firstItem="qw1-8U-9fB" firstAttribute="top" secondItem="AUT-6r-gCT" secondAttribute="bottom" constant="7" id="lL2-BL-Zgb"/>
+                    <constraint firstItem="AUT-6r-gCT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="lgo-LA-ynE"/>
+                    <constraint firstItem="qw1-8U-9fB" firstAttribute="firstBaseline" secondItem="hCK-sP-bx7" secondAttribute="firstBaseline" id="n9S-aJ-hxm"/>
+                    <constraint firstItem="4Rm-5G-Py4" firstAttribute="leading" secondItem="Zqb-La-25i" secondAttribute="leading" id="tQg-Go-AWp"/>
+                    <constraint firstItem="AUT-6r-gCT" firstAttribute="leading" secondItem="qw1-8U-9fB" secondAttribute="leading" id="uHu-RC-Bea"/>
+                    <constraint firstItem="4Ba-Jb-E3C" firstAttribute="centerX" secondItem="4Rm-5G-Py4" secondAttribute="centerX" id="xEp-kW-ZyU"/>
+                    <constraint firstItem="C0c-a0-K2J" firstAttribute="leading" secondItem="zTZ-oI-Anc" secondAttribute="trailing" constant="26" id="xyF-v3-UL1"/>
+                    <constraint firstAttribute="trailing" secondItem="4Ba-Jb-E3C" secondAttribute="trailing" id="y3u-Os-vXh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="appointmentTime" destination="CgH-Mp-KPF" id="v83-il-tPE"/>
+                <outlet property="cancelButton" destination="C0c-a0-K2J" id="Eur-1h-exE"/>
+                <outlet property="descriptionLabel" destination="Zqb-La-25i" id="DPI-43-BGa"/>
+                <outlet property="massageType" destination="AUT-6r-gCT" id="t8r-2z-apZ"/>
+                <outlet property="partySizeLabel" destination="qw1-8U-9fB" id="gIC-zd-OWa"/>
+                <outlet property="rescheduleButton" destination="zTZ-oI-Anc" id="PgP-sm-Ag3"/>
+                <outlet property="scheduledDateLabel" destination="AWU-nj-e2l" id="5aA-35-LkY"/>
+            </connections>
+            <point key="canvasLocation" x="-1094" y="-127"/>
+        </tableViewCell>
+    </objects>
+</document>
